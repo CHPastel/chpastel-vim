@@ -20,7 +20,6 @@ v.g.colors_name = 'chpastel'
 Color.new('main_font', "#7D7D78")
 Color.new('green_fill', "#496557")
 Color.new('syntax_bg', "#132225")
-Color.new('transparent', "#cc132225")
 Color.new('syntax_gutter', "#636d83")
 Color.new('syntax_cursor', "#0f1c1f")
 Color.new('vertsplit', "#181a1f")
@@ -64,7 +63,7 @@ v.g.terminal_color_7  = "#bbc5ce"
 v.g.terminal_color_15 = "#adb6be"
 
 -- Vim Editor Color --
-Group.new('Normal',       c.main_font,       c.transparent,      no)
+Group.new('Normal',       c.main_font,       c.syntax_bg,      no)
 Group.new('bold',         c.none,         c.none,      b)
 Group.new('ColorColumn',  c.none,         c.syntax_cursor,  no)
 Group.new('Conceal',      c.green_fill,       c.syntax_bg,      no)
