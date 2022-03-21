@@ -17,53 +17,51 @@ local v = vim
 
 v.g.colors_name = 'chpastel'
 
-Color.new('main_font', "#7D7D78")
-Color.new('green_fill', "#496557")
-Color.new('syntax_bg', "#132225")
-Color.new('syntax_gutter', "#636d83")
-Color.new('syntax_cursor', "#0f1c1f")
-Color.new('vertsplit', "#181a1f")
-Color.new('pmenu', "#181a1f")
-Color.new('comment', "#32384C")
+Color.new('main_font',     "#898576")
+Color.new('green_fill',    "#416644")
+Color.new('syntax_bg',     "#0f1c1f")
+Color.new('syntax_gutter', "#0f1c1f")
+Color.new('syntax_cursor', "#6a4771")
+Color.new('vertsplit',     "#806731")
+Color.new('pmenu',         "#282828")
+Color.new('comment',       "#282828")
 
 -- Vim Primary Colors --
-Color.new('Red', "#9c666b")
-Color.new('DarkRed', "#bd7b81")
-Color.new('Blue', "#57678a")
-Color.new('DarkBlue', "#6679a2")
-Color.new('Green', "#597b6a")
-Color.new('DarkGreen', "#496557")
-Color.new('Yellow', "#a78b54")
-Color.new('DarkYellow', "#957c4b")
-Color.new('Purple', "#8e6b7d")
-Color.new('Magenta', '#a47b90')
-Color.new('DarkMagenta', '#8e6b7d')
-Color.new('Black', "#0f1c1f")
-Color.new('Grey', "#132225")
-Color.new('White',  '#bbc5ce')
-Color.new('Cyan', '#76a7d8')
-Color.new('DarkCyan', '#6792bd')
+Color.new('Red',           "#814b49")
+Color.new('DarkRed',       "#814b49")
+Color.new('Blue',          "#326777")
+Color.new('DarkBlue',      "#326777")
+Color.new('Green',         "#416644")
+Color.new('DarkGreen',     "#416644")
+Color.new('Yellow',        "#806731")
+Color.new('DarkYellow',    "#806731")
+Color.new('Magenta',       '#6a4771')
+Color.new('DarkMagenta',   '#6a4771')
+Color.new('Black',         "#282828")
+Color.new('White',         "#898576")
+Color.new('Cyan',          '#317389')
+Color.new('DarkCyan',      '#317389')
 
 -- Vim Terminal Colors --
-v.g.terminal_color_0  = "#0f1c1f"
-v.g.terminal_color_8  = "#132225"
-v.g.terminal_color_1  = "#9c666b"
-v.g.terminal_color_9  = "#bd7b81"
-v.g.terminal_color_2  = "#496557"
-v.g.terminal_color_10 = "#597b6a"
-v.g.terminal_color_3  = "#957c4b"
-v.g.terminal_color_11 = "#a78b54"
-v.g.terminal_color_4  = "#57678a"
-v.g.terminal_color_12 = "#6679a2"
-v.g.terminal_color_5  = "#8e6b7d"
-v.g.terminal_color_13 = "#a47b90"
-v.g.terminal_color_6  = "#6792bd"
-v.g.terminal_color_14 = "#76a7d8"
-v.g.terminal_color_7  = "#bbc5ce"
-v.g.terminal_color_15 = "#adb6be"
+v.g.terminal_color_0  =    "#282828"
+v.g.terminal_color_8  =    "#282828"
+v.g.terminal_color_1  =    "#814b49"
+v.g.terminal_color_9  =    "#814b49"
+v.g.terminal_color_2  =    "#416644"
+v.g.terminal_color_10 =    "#416644"
+v.g.terminal_color_3  =    "#806731"
+v.g.terminal_color_11 =    "#806731"
+v.g.terminal_color_4  =    "#326777"
+v.g.terminal_color_12 =    "#326777"
+v.g.terminal_color_5  =    "#6a4771"
+v.g.terminal_color_13 =    "#6a4771"
+v.g.terminal_color_6  =    "#317389"
+v.g.terminal_color_14 =    "#317389"
+v.g.terminal_color_7  =    "#898576"
+v.g.terminal_color_15 =    "#898576"
 
 -- Vim Editor Color --
-Group.new('Normal',       c.main_font,       c.syntax_bg,      no)
+Group.new('Normal',       c.main_font,       c.none,      no)
 Group.new('bold',         c.none,         c.none,      b)
 Group.new('ColorColumn',  c.none,         c.syntax_cursor,  no)
 Group.new('Conceal',      c.green_fill,       c.syntax_bg,      no)
@@ -85,8 +83,8 @@ Group.new('ModeMsg',      c.main_font,       c.none,      no)
 Group.new('MoreMsg',      c.main_font,       c.none,      no)
 Group.new('NonText',      c.green_fill,       c.none,      no)
 Group.new('PMenu',        c.none,         c.pmenu,          no)
-Group.new('PMenuSel',     c.Grey,         c.green_fill,         no)
-Group.new('PMenuSbar',    c.Grey,         c.green_fill,         no)
+Group.new('PMenuSel',     c.White,         c.green_fill,         no)
+Group.new('PMenuSbar',    c.White,         c.green_fill,         no)
 Group.new('PMenuThumb',   c.none,         c.main_font,         no)
 Group.new('Question',     c.Cyan,        c.none,      no)
 Group.new('Search',       c.green_fill,       c.Yellow,        no)
@@ -98,8 +96,8 @@ Group.new('TabLine',      c.main_font,       c.DarkGreen,    no)
 Group.new('TabLineFill',  c.green_fill,       c.DarkBlue,    no)
 Group.new('TabLineSel',   c.green_fill,       c.Cyan,          no)
 Group.new('Title',        c.main_font,       c.none,      b)
-Group.new('Visual',       c.Grey,         c.DarkGreen,    no)
-Group.new('VisualNOS',    c.Grey,         c.DarkGreen,    no)
+Group.new('Visual',       c.White,         c.DarkGreen,    no)
+Group.new('VisualNOS',    c.White,         c.DarkGreen,    no)
 Group.new('WarningMsg',   c.DarkRed,        c.none,      no)
 Group.new('TooLong',      c.DarkRed,        c.none,      no)
 Group.new('WildMenu',     c.main_font,       c.green_fill,         no)
