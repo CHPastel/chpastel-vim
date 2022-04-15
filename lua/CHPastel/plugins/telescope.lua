@@ -19,7 +19,7 @@ Group.new("TelescopeResultsNormal", colors.white, nil, nil)
 Group.new("TelescopeResultsTitle", colors.yellow, nil, nil)
 
 -- telescope results
-Group.new("TelescopeResultsVariable", colors.light_green, nil, styles.italic)
+Group.new("TelescopeResultsVariable", colors.green, nil, styles.italic)
 Group.new("TelescopeResultsMethod", colors.yellow, nil, styles.italic)
 Group.new("TelescopeResultsConstant", colors.light_grey, nil, styles.italic)
 Group.new("TelescopeResultsFunction", colors.purple, nil, styles.italic)
@@ -32,6 +32,6 @@ Group.new("TelescopeResultsSpecialComment", colors.blue, nil, styles.italic)
 
 -- telescope results diff
 Group.new("TelescopeResultsDiffAdd", colors.black, colors.green, nil)
-Group.new("TelescopeResultsDiffChange", colors.black, colors.light_green, nil)
+Group.new("TelescopeResultsDiffChange", colors.black, colors.green, nil)
 Group.new("TelescopeResultsDiffDelete", colors.white, colors.red, nil)
 Group.new("TelescopeResultsDiffUntracked", colors.black, colors.cyan, nil)
