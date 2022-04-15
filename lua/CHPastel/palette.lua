@@ -23,13 +23,6 @@ local colors = {
     lighter_grey = "#BCBCBC",
     lightest_grey = "#CCCCCC",
 
-
-    darkest_green = "#2D7067",
-    dirty_green = "#70b950",
-    light_green = "#88FF88",
-    lighter_green = "#9EFF80",
-    lightest_green = "#BBFFDD",
-
 }
 
 return colors
