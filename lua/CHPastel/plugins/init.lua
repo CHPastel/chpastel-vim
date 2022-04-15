@@ -1,4 +1,4 @@
-require("CHPastel/plugins/lualine")
+require("CHPastel/plugins/bufferline")
 require("CHPastel/plugins/nvim-cmp")
 require("CHPastel/plugins/nvim-lsp")
 require("CHPastel/plugins/nvim-tree")
