@@ -4,7 +4,7 @@ local Group = require("CHPastel.utils").Group
 
 -- diagnostics
 Group.new("DiagnosticError", colors.red:light(), nil, nil)
-Group.new("DiagnosticWarn", colors.light_yellow, nil, nil)
+Group.new("DiagnosticWarn", colors.yellow, nil, nil)
 Group.new("DiagnosticInfo", colors.light_blue, nil, nil)
 Group.new("DiagnosticHint", colors.light_pink, nil, nil)
 Group.new("DiagnosticUnderlineError", colors.red:light(), nil, styles.underline)
