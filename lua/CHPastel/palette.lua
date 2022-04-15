@@ -36,18 +36,6 @@ local colors = {
     light_blue = "#317389",
     greyish_blue = "#8fbfdc",
     dirty_blue = "#668799",
-
-    aubergine = "#4F0037",
-    darker_red = "#700009",
-    dark_red = "#902020",
-
-    dark_pink = "#FF628C",
-    pink = "#FF00FF",
-    light_pink = "#EE80E1",
-    lightest_pink = "#FFA5F3",
-    pale_pink = "#F0A0C0",
-    dirty_pink = "#EB939A",
-
 }
 
 return colors
