@@ -40,7 +40,7 @@ local colors = {
     dark_red = "#902020",
     red = "#814b49",
 
-    dark_pink = "#FF628C",-
+    dark_pink = "#FF628C",
     pink = "#FF00FF",
     light_pink = "#EE80E1",
     lightest_pink = "#FFA5F3",
