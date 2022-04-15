@@ -12,12 +12,10 @@ local colors = {
     cursor_hover = "#112940",
 
 
-
-
-
-    darkest_grey = "#3A3A3A",
     darker_grey = "#444444",
     dark_grey = "#626262",
+
+
     grey = "#808080",
     light_grey = "#9E9E9E",
     lighter_grey = "#BCBCBC",

@@ -3,8 +3,6 @@ local palette = require("CHPastel.palette")
 
 -- colors
 Color.new("black", palette.black)
-Color.new("darkest_grey", palette.darkest_grey)
-Color.new("darker_grey", palette.darker_grey)
 Color.new("dark_grey", palette.dark_grey)
 Color.new("grey", palette.grey)
 Color.new("light_grey", palette.light_grey)
