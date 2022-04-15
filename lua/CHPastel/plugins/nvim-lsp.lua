@@ -5,7 +5,7 @@ local Group = require("CHPastel.utils").Group
 -- diagnostics
 Group.new("DiagnosticError", colors.red:light(), nil, nil)
 Group.new("DiagnosticWarn", colors.yellow, nil, nil)
-Group.new("DiagnosticInfo", colors.light_blue, nil, nil)
+Group.new("DiagnosticInfo", colors.cyan, nil, nil)
 Group.new("DiagnosticHint", colors.purple, nil, nil)
 Group.new("DiagnosticUnderlineError", colors.red:light(), nil, styles.underline)
 Group.new("DiagnosticUnderlineWarn", colors.yellow, nil, styles.underline)
@@ -37,5 +37,5 @@ Group.new("LspReferenceWrite", nil, colors.cursor_hover, nil)
 Group.new("LspReferenceText", nil, colors.cursor_hover, nil)
 
 -- normal
-Group.new("LspSignatureActiveParameter", colors.light_blue, nil, nil)
+Group.new("LspSignatureActiveParameter", colors.cyan, nil, nil)
 Group.new("LspFloatWinNormal", colors.yellow, colors.chpastel_bg, nil)

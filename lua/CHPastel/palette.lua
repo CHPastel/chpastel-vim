@@ -6,6 +6,7 @@ local colors = {
     green = "#416644",
     purple = "#6a4771",
     blue = "#326777",
+    cyan = "#317389",
     red = "#814b49",
     cursor_line = "#112940",
     cursor_hover = "#112940",
@@ -29,13 +30,6 @@ local colors = {
     lighter_green = "#9EFF80",
     lightest_green = "#BBFFDD",
 
-
-    darkest_blue = "#0000df",
-    darker_blue = "#0050A4",
-    dark_blue = "#0088FF",
-    light_blue = "#317389",
-    greyish_blue = "#8fbfdc",
-    dirty_blue = "#668799",
 }
 
 return colors

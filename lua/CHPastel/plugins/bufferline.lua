@@ -3,8 +3,8 @@ local styles = require("CHPastel.utils").styles
 local Group = require("CHPastel.utils").Group
 
 Group.new("BufferLineFill", colors.light_grey, colors.cursor_line, nil)
-Group.new("BufferLineBackground", colors.dark_blue, nil, styles.italic)
-Group.new("BufferLineBufferVisible", colors.dark_blue, nil, nil)
+Group.new("BufferLineBackground", colors.blue, nil, styles.italic)
+Group.new("BufferLineBufferVisible", colors.blue, nil, nil)
 Group.new("BufferLineBufferSelected", colors.yellow, nil, nil)
 Group.new("BufferLineTab", colors.white, nil, nil)
 Group.new("BufferLineTabSelected", colors.yellow, colors.cursor_hover, styles.bold)
