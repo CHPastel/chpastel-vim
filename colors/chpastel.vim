@@ -1,1 +1,1 @@
-lua require('chpastel')
+lua require('CHPastel')
