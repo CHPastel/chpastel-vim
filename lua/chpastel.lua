@@ -105,7 +105,7 @@ Group.new('helpSectionDelim', c.green_fill, c.none, no)
 -- Standard Syntax Highlighting --
 Group.new('Comment',        c.comment,      c.none,       i)
 Group.new('Constant',       c.Green,        c.none,       no)
-Group.new('String',         c.Green,        c.none,       no)
+Group.new('String',         c.main_font,        c.none,       no)
 Group.new('Character',      c.Green,        c.none,       no)
 Group.new('Number',         c.Yellow,   c.none,       no)
 Group.new('Boolean',        c.Yellow,   c.none,       no)
@@ -342,7 +342,7 @@ Group.new('pythonEscape',           c.Red,     c.none,  no)
 Group.new('pythonFunction',         c.Cyan,        c.none,  no)
 Group.new('pythonKeyword',          c.Cyan,        c.none,  no)
 Group.new('pythonModule',           c.Magenta,     c.none,  no)
-Group.new('pythonStringDelimiter',  c.Green,       c.none,  no)
+Group.new('pythonStringDelimiter',  c.main_font,       c.none,  no)
 Group.new('pythonSymbol',           c.green_fill,  c.none,  no)
 
 -- Spelling
