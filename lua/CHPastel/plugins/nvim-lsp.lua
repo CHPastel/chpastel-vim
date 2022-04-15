@@ -38,4 +38,4 @@ Group.new("LspReferenceText", nil, colors.cursor_hover, nil)
 
 -- normal
 Group.new("LspSignatureActiveParameter", colors.light_blue, nil, nil)
-Group.new("LspFloatWinNormal", colors.yellow, colors.cobalt_bg, nil)
+Group.new("LspFloatWinNormal", colors.yellow, colors.chpastel_bg, nil)

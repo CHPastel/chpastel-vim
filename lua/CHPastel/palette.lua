@@ -1,5 +1,5 @@
 local colors = {
-  cobalt_bg = "#193549",
+  chpastel_bg = "#193549",
 
   -- black, white and grey
   black = "#1C1C1C",

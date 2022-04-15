@@ -22,7 +22,7 @@ Plug 'tjdevries/colorbuddy.vim'
 Plug 'caasi-dev/vim-chpastel'
 
 " And then somewhere in your init.vim, to set the colorscheme
-lua require('colorbuddy').colorscheme('chpastel')
+lua require('colorbuddy').colorscheme('CHPastel')
 ```
 
 ## Acknowledgements
