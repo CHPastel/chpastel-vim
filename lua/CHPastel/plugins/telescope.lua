@@ -2,9 +2,6 @@ local colors = require("CHPastel.utils").colors
 local Group = require("CHPastel.utils").Group
 local styles = require("CHPastel.utils").styles
 
----------------------------------------------------------------------------------
---                                  telescope                                  --
----------------------------------------------------------------------------------
 Group.new("TelescopeBorder", colors.yellow, nil, nil)
 Group.new("TelescopeMatching", colors.yellow, nil, nil)
 Group.new("TelescopeMultiSelection", colors.dark_pink, nil, nil)

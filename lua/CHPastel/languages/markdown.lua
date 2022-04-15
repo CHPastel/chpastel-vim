@@ -1,9 +1,6 @@
 local colors = require("CHPastel.utils").colors
 local Group = require("CHPastel.utils").Group
 
----------------------------------------------------------------------------------
---                                  markdown                                   --
----------------------------------------------------------------------------------
 Group.new("markdownHeadingDelimiter", colors.dark_orange, nil, nil)
 Group.new("markdownCode", colors.dark_blue, nil, nil)
 Group.new("markdownCodeBlock", colors.dark_blue, nil, nil)

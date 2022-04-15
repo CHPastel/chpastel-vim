@@ -2,9 +2,6 @@ local colors = require("CHPastel.utils").colors
 local styles = require("CHPastel.utils").styles
 local Group = require("CHPastel.utils").Group
 
----------------------------------------------------------------------------------
---                                    theme                                    --
----------------------------------------------------------------------------------
 Group.new("Normal", colors.white, colors.chpastel_bg, nil)
 Group.new("NormalNC", colors.white, colors.chpastel_bg, nil)
 Group.new("NormalFloat", colors.white, nil, nil)
