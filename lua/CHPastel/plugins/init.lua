@@ -1,0 +1,8 @@
+require("cobalt2/plugins/lualine")
+require("cobalt2/plugins/nvim-cmp")
+require("cobalt2/plugins/nvim-lsp")
+require("cobalt2/plugins/nvim-tree")
+require("cobalt2/plugins/nvim-treesitter")
+require("cobalt2/plugins/nvim-ts-rainbow")
+require("cobalt2/plugins/packer")
+require("cobalt2/plugins/telescope")

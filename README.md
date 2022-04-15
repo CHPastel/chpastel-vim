@@ -25,3 +25,5 @@ Plug 'caasi-dev/vim-chpastel'
 lua require('colorbuddy').colorscheme('chpastel')
 ```
 
+## Acknowledgements
+[lalitmee/cobalt2.nvim](https://github.com/lalitmee/cobalt2.nvim) for general file structure and setup.
