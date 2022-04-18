@@ -34,4 +34,4 @@ Group.new("LspReferenceText", nil, colors.cursor_hover, nil)
 
 -- nilrmal
 Group.new("LspSignatureActiveParameter", colors.cyan, nil, nil)
-Group.new("LspFloatWinnilrmal", colors.yellow, colors.chpastel_bg, nil)
+Group.new("LspFloatWinnilrmal", colors.yellow, colors.pmenu, nil)
